@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="q0422_descr">說明:</string>
+    <string name="q0422_t001">選擇:</string>
+    <string name="q0422_name">名稱:</string>
+    <string name="q0422_url">網址:</string>
+    <string name="q0422_img">圖片</string>
+    <string name="q0422_opendata">匯入opendata</string>
+    <string name="q0422_title">請稍等</string>
+    <string name="q0422_message">執行中...</string>
+    <string name="q0422_ncount">共計:</string>
+    <string name="q0422_loading">數據載入中......</string>
+    <string name="q0422_menu_top">跳到首筆</string>
+    <string name="q0422_menu_end">跳到尾筆</string>
+    <string name="q0422_loadover">重新載入完成</string>
+    <string name="q0422_menu_next">+100</string>
+    <string name="q0422_menu_back">-100</string>
+    <string name="q0422_menu_load">下載數據資料</string>
+    <string name="q0422_b002">電話聯絡</string>
+    <string name="q0422_b003">地圖搜尋</string>
+
+</resources>

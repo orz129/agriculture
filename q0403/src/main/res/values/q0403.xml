@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="q0403_t002">Press Enter</string>
+<!--    <string name="q0403_new01">薇如-探索菜園</string>-->
+<!--    <string name="q0403_new02">薇如-農場旅遊</string>-->
+<!--    <string name="q0403_new03">苡溱-農產伴手禮</string>-->
+<!--    <string name="q0403_new04">苡溱-產銷食材哪裡吃</string>-->
+<!--    <string name="q0403_new05">苡溱-休閒農業區資訊</string>-->
+    <string name="q0403_descr">說明:</string>
+    <string name="q0403_t001">選擇:</string>
+    <string name="q0403_name">名稱:</string>
+    <string name="q0403_url">網址:</string>
+    <string name="q0403_img">圖片</string>
+    <string name="q0403_opendata">匯入opendata</string>
+    <string name="q0403_title">請稍等</string>
+    <string name="q0403_message">執行中...</string>
+    <string name="q0403_ncount">共計:</string>
+    <string name="q0403_loading">數據載入中......</string>
+    <string name="q0403_menu_top">跳到首筆</string>
+    <string name="q0403_menu_end">跳到尾筆</string>
+    <string name="q0403_loadover">重新載入完成</string>
+    <string name="q0403_menu_next">+100</string>
+    <string name="q0403_menu_back">-100</string>
+    <string name="q0403_menu_load">下載數據資料</string>
+
+    <string name="q0403_btn_getweather">取得當地天氣狀態</string>
+    <string name="q0403_country">"地區："</string>
+    <string name="q0403_Temperature">體感溫度：</string>
+    <string name="q0403_Temperature_Min">最低溫度(Min)：</string>
+    <string name="q0403_Temperature_Max">最高溫度(Max)：</string>
+    <string name="q0403_Humidity">"濕度："</string>
+    <string name="q0403_Pressure">"氣壓："</string>
+    <string name="q0403_areaname">英文地名：</string>
+    <string name="q0403_w_description">描述：</string>
+    <string name="q0403_w_icon">圖示網址：</string>
+    <string name="q0403_img_des">天氣圖片</string>
+    <string name="q0403_showpic">網路圖片：</string>
+    <string name="q0403_weather_lon">緯度：</string>
+    <string name="q0403_weather_lat">經度：</string>
+    <string name="q0403_dialog_msg1">連線中</string>
+
+    <!--    ImageButton-->
+    <string name="q0403_b003">農新聞</string>
+    <string name="q0403_b006">種子</string>
+
+    <string name="dialog_msg1">需要[定位]核准</string>
+    <string name="dialog_msg2">需要[儲存裝置]核准</string>
+    <string name="dialog_msg3">需要[通話]核准</string>
+    <string name="dialog_msg4">需要[4]核准</string>
+    <string name="dialog_msg5">需要[5]核准</string>
+</resources>

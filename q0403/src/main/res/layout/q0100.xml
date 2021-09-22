@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="@dimen/p010"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/q0403_lay01"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/p120"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/q0403_status"-->
+<!--            android:layout_width="@dimen/p250"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@color/test_background"-->
+<!--            android:maxLines="15"-->
+<!--            android:scrollbarStyle="outsideInset"-->
+<!--            android:scrollbars="vertical"-->
+<!--            android:singleLine="false"-->
+<!--            android:textColor="@color/second_title_text"-->
+<!--            android:textSize="@dimen/sp18" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/q0403_img001"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/p080"-->
+<!--                android:background="@color/lightblue" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/q0403_t003"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/lightblue"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="24sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="TextView" />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/p120"
+        android:layout_height="@dimen/p120"
+        app:cardElevation="@dimen/p010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55">
+
+        <LinearLayout
+            android:id="@+id/q0403_lay03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q0500_t001"
+                android:layout_width="@dimen/p120"
+                android:layout_height="@dimen/p030"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/q0403_b006"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/q0403_img003"
+                android:layout_width="@dimen/p120"
+                android:layout_height="@dimen/p090"
+                app:srcCompat="@drawable/img_game" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="@dimen/p120"
+        android:layout_height="@dimen/p120"
+        android:layout_marginStart="44dp"
+        app:cardElevation="@dimen/p010"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView">
+
+        <LinearLayout
+            android:id="@+id/q0403_lay04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/q0500_t002"
+                android:layout_width="@dimen/p120"
+                android:layout_height="@dimen/p030"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/q0403_b003"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/q0403_img002"
+                android:layout_width="@dimen/p120"
+                android:layout_height="@dimen/p090"
+                app:srcCompat="@drawable/img_form" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

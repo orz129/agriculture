@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/li00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="@dimen/p005">
+
+    <LinearLayout
+        android:id="@+id/li01"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p300"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/q0403_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/second_title"
+            android:text="@string/q0403_name"
+            android:textColor="@color/second_title_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q0403_descr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/test_background"
+            android:fadeScrollbars="false"
+            android:maxLines="12"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/q0403_descr"
+            android:textColor="@color/test_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/q0403_b004"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@color/big_button"-->
+        <!--            android:text="@string/q0403_b004"-->
+        <!--            android:textColor="@color/big_button_text"-->
+        <!--            android:textSize="20sp"-->
+        <!--            android:textStyle="bold" />-->
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/u_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p010"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="@string/q0403_loading"
+        android:textColor="@color/Red"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/laySwipe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/p010"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/q0403_ncount"
+            android:textColor="@color/blue_sapphire"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    </TableRow>
+
+</LinearLayout>
